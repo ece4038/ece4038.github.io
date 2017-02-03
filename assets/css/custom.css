@@ -1,0 +1,176 @@
+/*** Ezix Style ***/
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover,
+.dropdown-menu .divider{
+  color: Lime;
+  background-color: Gray;
+}
+.navbar-default .navbar-nav>li>a,
+.navbar-default .navbar-brand,
+.dropdown-menu>li>a {
+    color: LimeGreen;
+}
+.list-group-item.active,
+.list-group-item.active:focus,
+.list-group-item.active:hover,
+.navbar-default .navbar-toggle .icon-bar,
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  background-color: LimeGreen;
+  border-color: LimeGreen;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form ,
+.navbar-default,
+.dropdown-menu{
+  background-color: DimGray;
+}
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:hover,
+.dropdown-menu>li>a:focus,
+.dropdown-menu>li>a:hover,
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:focus,
+.navbar-default .navbar-nav>.open>a:hover,
+.dropdown-header {
+  color: Snow;
+}
+.dropdown-menu>li>a:focus,
+.dropdown-menu>li>a:hover,
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:focus,
+.navbar-default .navbar-nav>.open>a:hover,
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+  background-color: Gray;
+}
+.btn-primary {
+  background-color: LimeGreen;
+  border-color: transparent;
+}
+.btn-primary:hover,
+.btn-primary.focus,
+.btn-primary:focus,
+.btn-primary.active,
+.btn-primary:active,
+.dropdown-menu>.active>a,
+.dropdown-menu>.active>a:focus,
+.dropdown-menu>.active>a:hover,
+.open>.dropdown-toggle.btn-primary {
+  background-color: Green;
+  border-color: transparent;
+}
+
+/*** Hangman ***/
+#hangman #letters {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#hangman .letter {
+    width: 30px;
+    margin: 4px;
+}
+
+#hangman button[disabled] {
+    background-color: darkgrey;
+    text-decoration: line-through;
+}
+#hangman .text-center img{
+	margin: 0 auto;
+}
+
+/*** Matching ***/
+.matching .choices {
+    padding: 20px;
+}
+.matching .choices button{
+    height: 90px;
+    width: 90px;
+    position: relative;
+    background: linear-gradient(to bottom, #e8edf0, #b8b9ba);
+}
+.matching .choices button span{
+    position: absolute;
+    top: 25px;
+    left: 10px;
+    text-align: left;
+    display: none;
+
+}
+
+/*** Quiz ***/
+#content{
+  margin:auto;
+  width:800px;
+  height:400px;
+  position:relative;
+  overflow:hidden;
+}
+#game1{
+  margin:auto;
+  width:800px;
+  height:400px;
+  right:0px;
+  position:absolute;
+}
+#game2{
+  margin:auto;
+  width:800px;
+  height:400px;
+  right:-800px;
+  position:absolute;
+}
+.option{
+  width:400px;
+  height:30px;
+  margin:15px;
+  padding:2px;
+  padding-left:10px;
+  border: 2px solid LimeGreen;
+  border-radius: 15px;
+  cursor:pointer;
+}
+.option:hover{
+  border-color: Green;
+  color: DimGray;
+}
+.feedback1{
+  width:150px;
+  padding:5px;
+  color:#FFFFCC;
+  background-color:#009900;
+  text-align:center;
+}
+.feedback2{
+  width:150px;
+  padding:5px;
+  color:#FFFFCC;
+  background-color:#CC3300;
+  text-align:center;
+}
+#faq a{
+	cursor:pointer;
+	
+}
+#faq ul{
+	padding:0;
+	
+}
+#faq ul, a{
+	font-size:1.25em;
+	
+}
+/*** Smaller Ezix Style ***/
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: LimeGreen;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu>li>a:focus,
+  .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
+    color: Snow;
+  }
+}

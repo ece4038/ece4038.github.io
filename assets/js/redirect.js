@@ -1,0 +1,1 @@
+t1 = window.setTimeout(function(){ window.location = "http://kelvin.ist.rit.edu/~polarbears/index.php"; },3000);

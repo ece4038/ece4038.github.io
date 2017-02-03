@@ -1,0 +1,38 @@
+{"quiz":[
+  {
+    "question":"The '!!' command does which of the following",
+    "option1":"repeats previous command",
+    "option2":"finds files by name",
+    "option3":"sends and receives mail",
+    "option4":"suspends a process"
+  },
+  {
+    "question":"What command kills a specified process",
+    "option1":"kill",
+    "option2":"passwd",
+    "option3":"cat",
+    "option4":"Ctrl-Z"
+  },
+  {
+    "question":"The 'tr' command does which of the following",
+    "option1":"translates one set of characters to another",
+    "option2":"copy a file from one computer to another",
+    "option3":"compress files",
+    "option4":"finds files by name"
+  },
+  {
+    "question":"The 'gzip' command does which of the following",
+    "option1":"expands files",
+    "option2":"matches plain text with the specified pattern",
+    "option3":"change password for a user account",
+    "option4":"outputs file contents to console"
+  },
+  {
+    "question":"What command searchs plain-text and prints lines matching a specified pattern",
+    "option1":"grep",
+    "option2":"ftp",
+    "option3":"tr",
+    "option4":"telnet"
+  }
+]
+}

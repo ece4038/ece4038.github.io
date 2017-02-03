@@ -1,0 +1,24 @@
+{"quiz":[
+  {
+    "question":"The 'make' command does which of the following",
+    "option1":"builds a group of programs",
+    "option2":"displays users currently logged in",
+    "option3":"manages packages for Red Hat",
+    "option4":"manages packages for Debian"
+  },
+  {
+    "question":"What command displays users currently logged in",
+    "option1":"who",
+    "option2":"make",
+    "option3":"rpm",
+    "option4":"dpkg"
+  },
+  {
+    "question":"The 'finger' command does which of the following",
+    "option1":"displays information about system users",
+    "option2":"builds a group of programs",
+    "option3":"manages packages for Debian",
+    "option4":"displays users currently logged in"
+  }
+]
+}
