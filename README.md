@@ -1,1 +1,1 @@
-# ece4038.github.io
+# RIT Club App
